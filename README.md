@@ -1,3 +1,3 @@
-<img width="392" height="788" alt="image" src="https://github.com/user-attachments/assets/5eef141b-d30f-455f-a757-8546e48709# 3b" />
----
+<img width="392" height="790" alt="image" src="https://github.com/user-attachments/assets/cb47f953-abd2-480c-a6d7-0f139b335b88" />
+
 # MY FINAL OUTPUT FOR LAB2 OF ITPT02
