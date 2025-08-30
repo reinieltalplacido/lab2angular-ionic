@@ -1,0 +1,204 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- Removed NEUST title -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!-- Removed NEUST title -->
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Main Form Container -->
+  <div class="form-container">
+    
+    <!-- Header Section with Logo -->
+    <div class="form-header">
+      <div class="logo-container">
+        <div class="logo-placeholder">
+          <img src="assets\Logo-removebg-preview.png" alt="City of Malolos Logo" class="logo-image">
+        </div>
+        <div class="logo-text">LUNGSOD NG MALOLOS<br>BULACAN</div>
+      </div>
+      
+      <div class="header-text">
+        <p class="republic">Republic of the Philippines</p>
+        <p class="city">City of Malolos</p>
+        <p class="province">Province of Bulacan</p>
+        <p class="office">OFFICE OF THE BUILDING OFFICIAL</p>
+        <h1 class="permit-title">ARCHITECTURAL PERMIT</h1>
+      </div>
+    </div>
+
+    <!-- Permit Numbers Section -->
+    <div class="permit-numbers">
+      <div class="permit-item">
+        <label>APPLICATION NO.</label>
+        <ion-item class="permit-input">
+          <ion-input placeholder="Enter application number"></ion-input>
+          <span class="permit-suffix">- AP</span>
+        </ion-item>
+      </div>
+      
+      <div class="permit-item">
+        <label>ARCHITECTURAL PERMIT</label>
+        <ion-item class="permit-input">
+          <ion-input placeholder="Enter permit number"></ion-input>
+          <span class="permit-suffix">- AP</span>
+        </ion-item>
+      </div>
+    </div>
+
+    <!-- Box 1: Owner/Applicant Information -->
+    <div class="form-box">
+      <h2 class="box-title">BOX 1 (TO BE ACCOMPLISHED IN PRINT BY THE OWNER/APPLICANT)</h2>
+      
+      <!-- Owner/Applicant Details -->
+      <div class="form-section">
+        <h3>OWNER/APPLICANT</h3>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">LAST NAME</ion-label>
+            <ion-input placeholder="Enter last name"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">FIRST NAME</ion-label>
+            <ion-input placeholder="Enter first name"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">M.I.</ion-label>
+            <ion-input placeholder="Middle initial"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">TIN</ion-label>
+            <ion-input placeholder="Tax identification number"></ion-input>
+          </ion-item>
+        </div>
+      </div>
+
+      <!-- Construction Ownership & Use -->
+      <div class="form-section">
+        <h3>FOR CONSTRUCTION OWNED BY AN ENTERPRISE</h3>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">FORM OF OWNERSHIP</ion-label>
+            <ion-input placeholder="e.g., Corporation, Partnership"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">USE OR CHARACTER OF OCCUPANCY</ion-label>
+            <ion-input placeholder="e.g., Commercial, Residential"></ion-input>
+          </ion-item>
+        </div>
+      </div>
+
+      <!-- Address Details -->
+      <div class="form-section">
+        <h3>ADDRESS</h3>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">NO.</ion-label>
+            <ion-input placeholder="House/Building number"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">STREET</ion-label>
+            <ion-input placeholder="Street name"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">BARANGAY</ion-label>
+            <ion-input placeholder="Barangay name"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">CITY/MUNICIPALITY</ion-label>
+            <ion-input placeholder="City or municipality"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">ZIP CODE</ion-label>
+            <ion-input placeholder="ZIP code"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">TELEPHONE NO</ion-label>
+            <ion-input placeholder="Phone number"></ion-input>
+          </ion-item>
+        </div>
+      </div>
+
+      <!-- Location of Construction -->
+      <div class="form-section">
+        <h3>LOCATION OF CONSTRUCTION</h3>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">LOT NO.</ion-label>
+            <ion-input placeholder="Lot number"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">BLK NO.</ion-label>
+            <ion-input placeholder="Block number"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">TCT NO.</ion-label>
+            <ion-input placeholder="Transfer Certificate of Title"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">TAX DEC. NO.</ion-label>
+            <ion-input placeholder="Tax declaration number"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div class="input-row">
+          <ion-item class="form-input">
+            <ion-label position="stacked">STREET</ion-label>
+            <ion-input placeholder="Street name"></ion-input>
+          </ion-item>
+          
+          <ion-item class="form-input">
+            <ion-label position="stacked">BARANGAY</ion-label>
+            <ion-input placeholder="Barangay name"></ion-input>
+          </ion-item>
+        </div>
+        
+        <div class="input-row">
+          <ion-item class="form-input full-width">
+            <ion-label position="stacked">CITY/MUNICIPALITY OF</ion-label>
+            <ion-input placeholder="City or municipality"></ion-input>
+          </ion-item>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Submit Button -->
+    <div class="submit-section">
+      <ion-button expand="block" class="submit-btn">
+        <ion-icon name="checkmark-circle" slot="start"></ion-icon>
+        Submit Application
+      </ion-button>
+    </div>
+  </div>
+</ion-content>
